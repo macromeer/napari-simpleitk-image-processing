@@ -115,12 +115,17 @@ for acquisition is known or can be approximated.
 
 
 ## Installation
+You can install `napari-simpleitk-env` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html).  Start by creating an environment using mamba.
 
-You can install `napari-simpleitk-image-processing` via using `conda` and `pip`.
-If you have never used `conda` before, please go through [this tutorial](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/) first.
-
-    conda install -c conda-forge napari
+    mamba create -y -n napari-simpleitk-env -c conda-forge python=3.9
+    mamba activate napari-simpleitk-env
+    python -m pip install "napari[all]"
     pip install napari-simpleitk-image-processing
+
+Afterwards, run this command from the command line
+
+    naparia
+
 
 ## Features
 
