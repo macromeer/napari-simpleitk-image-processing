@@ -121,6 +121,7 @@ You can install `napari-simpleitk-env` via conda/mamba. If you have never used c
     mamba activate napari-simpleitk-env
     python -m pip install "napari[all]"
     pip install napari-simpleitk-image-processing
+    pip install napari-skimage-regionprops # we add this for feature analysis
 
 Afterwards, run this command from the command line
 
